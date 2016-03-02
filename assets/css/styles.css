@@ -1,1 +1,9 @@
 
+.jumbotron {
+  background-image: url("../img/food-hero.jpg");
+  background-size: 100%;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+
+}

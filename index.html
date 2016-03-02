@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
         <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -24,14 +24,31 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+      <!-- jumbotron and hero image -->
+      <div class="jumbotron">
+        <h1>My Food Blog</h1>
 
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Sign Up</a></p>
+      </div>
+      <!-- nav bar and nav tabs -->
+      <ul class="nav nav-pills nav-justified">
+        <li id ="home" role="presentation" class="inactive"><a href="#">Home</a></li>
+        <li role="presentation" class="inactive"><a href="#">About Us</a></li>
+        <li id = "restaurants" role="presentation" class="inactive"><a href="#">Restaurants</a></li>
+        <li role="presentation" class="inactive"><a href="#">Recipes</a></li>
+      </ul>
 
-
+      <!-- responsive columns -->
+      <div class="row">
+        <div class="col-md-8">.col-md-8</div>
+        <div class="col-md-4">.col-md-4</div>
+      </div>
 
 
 
         <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="js/main.js"></script>
+        <script src="assets/javascript/scripts.js"></script>
+        <script src="assets/javascript/geolocation.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
