@@ -1,9 +1,9 @@
-$(function(){
-   'use strict';
+// $(function(){
+//    'use strict';
 
 
 function calculateDistance(lat1, long1, lat2, long2){
-  //SOURCED FROM http://www.movable-type.co.uk/scripts/latlong.html
+  //SOURCED FROM http://www.movable-type.co.uk/scripts/latlong.html and treehouse
   var R = 3958.76; // miles
 
   //Setting
@@ -53,4 +53,4 @@ function gotLocation(currentPosition){
 
 //glyphicon glyphicon-map-marker
 
-)};
+// )};
